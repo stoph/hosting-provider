@@ -18,22 +18,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         loadingDiv.style.display = 'none';
         resultDiv.style.display = 'block';
         
-        if (response.success) {
-          if (response.result.isWPVIP) {
-            resultDiv.innerHTML = `
-              <div class="success">
-                <strong>WordPress VIP Hosting Detected</strong>
-                <p>This site is hosted on WordPress VIP</p>
-              </div>
-            `;
-          } else {
-            resultDiv.innerHTML = `
-              <div class="info">
-                <strong>Hosting Provider:</strong>
-                <p>${response.result.provider || 'Unknown'}</p>
-              </div>
-            `;
-          }
+        if (response.success) {          
+          resultDiv.innerHTML = `
+            <div class="info">
+              <p>${response.result.provider || 'Unknown'}</p>
+            </div>
+          `;
         } else {
           resultDiv.innerHTML = `
             <div class="error">

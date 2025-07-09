@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "WordPress VIP Hosting Checker",
+  "name": "WordPress Hosting Checker",
   "version": "1.0",
-  "description": "Checks if a website is hosted on WordPress VIP by checking the /.well-known/hosting-provider endpoint",
+  "description": "Checks if a website is hosted on WordPress by checking the /.well-known/hosting-provider endpoint",
   "permissions": [
     "activeTab",
     "scripting"

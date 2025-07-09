@@ -1,11 +1,11 @@
-# WordPress VIP Hosting Checker Chrome Extension
+# WordPress Hosting Checker Chrome Extension
 
-A Chrome extension that checks if a website is hosted on WordPress VIP by checking the `/.well-known/hosting-provider` endpoint.
+A Chrome extension that checks if a website is hosted on WordPress by checking the `/.well-known/hosting-provider` endpoint.
 
 ## Features
 
-- Checks if a website is hosted on WordPress VIP
-- Shows the hosting provider if not WordPress VIP
+- Checks if a website is hosted on WordPress
+- Shows the hosting provider if not WordPress
 - Manifest V3 compliant
 
 ## Installation
@@ -20,7 +20,7 @@ A Chrome extension that checks if a website is hosted on WordPress VIP by checki
 
 1. Navigate to any website
 2. Click the extension icon in your Chrome toolbar
-3. Click "Check Current Site" to check if the site is hosted on WordPress VIP
+3. Click "Check Current Site" to check if the site is hosted on WordPress
 
 ## Development
 

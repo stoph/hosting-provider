@@ -1,5 +1,5 @@
 chrome.runtime.onInstalled.addListener(() => {
-  console.log('WordPress VIP Hosting Checker installed');
+  console.log('WordPress Hosting Checker installed');
 });
 
 // Listen for messages from the popup
