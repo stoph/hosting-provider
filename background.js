@@ -31,8 +31,7 @@ async function checkHostingProvider(url) {
     }
     const text = await response.text();
     return {
-      isWPVIP: text.trim() === 'wpvip.com',
-      provider: text.trim()
+      provider: text.trim() === 'wpvip.com' ? 'WordPress VIP' : text.trim()
     };
   } catch (error) {
     throw new Error(error.message || 'Failed to check hosting provider');
